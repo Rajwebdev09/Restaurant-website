@@ -59,3 +59,5 @@ npm run dev
 
 ### 📌 Footer
 ![Footer](./screenshots/footer.png)
+
+💼 Available for freelance work — React / Full Stack Web Development
