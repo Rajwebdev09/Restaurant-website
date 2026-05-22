@@ -1,16 +1,47 @@
-# React + Vite
+# 🍽️ Restaurant Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive restaurant website built using **React + Vite**.  
+This project showcases a clean UI, smooth user experience, and responsive design suitable for real-world restaurant businesses.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+👉 https://restaurant-website-beta-sepia.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
+- Fully responsive design (mobile + desktop)
+- Modern UI/UX layout
+- Fast performance using Vite
+- Clean and structured code
+- Smooth navigation and sections
+- Restaurant landing page design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+---
+
+## 📂 Project Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/restaurant-website.git
+
+# Move into project folder
+cd restaurant-website
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
