@@ -45,3 +45,17 @@ npm install
 
 # Start development server
 npm run dev
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home](./screenshots/home.png)
+
+### 🍽️ Menu Page
+![Menu](./screenshots/menu.png)
+
+### 🏨 Hospitality Section
+![Hospitality](./screenshots/hospitality.png)
+
+### 📌 Footer
+![Footer](./screenshots/footer.png)
