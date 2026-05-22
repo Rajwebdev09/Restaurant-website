@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Outfit", sans-serif;
+  
+  --color-gold-50: #fdfaf2;
+  --color-gold-100: #f7eed5;
+  --color-gold-200: #eedda7;
+  --color-gold-300: #e2c571;
+  --color-gold-400: #d5aa42;
+  --color-gold-500: #c59b27;
+  --color-gold-600: #a37a1a;
+  --color-gold-700: #815e16;
+  --color-gold-800: #624614;
+  --color-gold-900: #493311;
+  --color-gold-950: #2a1c07;
+  
+  --color-gold-premium: #C5A880;
+  --color-gold-dark: #A88F68;
+  --color-gold-light: #DFCDAB;
+}
+
+/* Custom scrollbar matching premium theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-premium);
+}
+
+/* Base custom styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #050505;
+  color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+/* Smooth fade reveal helper */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.reveal-on-scroll.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Glassmorphism utility classes for Tailwind v4 */
+.glass-panel {
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
