@@ -61,3 +61,6 @@ npm run dev
 ![Footer](./screenshots/footer.png)
 
 💼 Available for freelance work — React / Full Stack Web Development
+
+## 💼 Hire Me on Fiverr
+👉 https://www.fiverr.com/rajwebdev09/build-a-modern-responsive-restaurant-website-using-react
